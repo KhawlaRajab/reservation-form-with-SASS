@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.backGround {
+  position: relative;
+  background: url(view-travel-items-assortment-still-life_23-2149617645.avif) no-repeat;
+  background-size: cover;
+  height: 130vh;
+}
+.backGround .header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(208, 173, 127);
+  height: 80px;
+  color: white;
+  font-size: x-large;
+  margin-bottom: 15px;
+}
+.backGround .container {
+  opacity: 0.97;
+  margin: auto;
+  background-color: white;
+  width: 40%;
+  height: 112vh;
+  padding: 10px;
+}
+.backGround .container h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: red;
+}
+.backGround .container .mandotory {
+  color: red;
+}
+.backGround .container input, .backGround .container select, .backGround .container button {
+  padding: 10px;
+  margin-top: 8px;
+}
+.backGround .container button {
+  color: black;
+  font-size: 20px;
+  width: 100%;
+}
+.backGround .container .enable {
+  background-color: black;
+  color: white;
+  opacity: 1;
+}
+.backGround .container label {
+  font-size: 18px;
+}
+
+.overlay {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: inherit;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  font-size: 30px;
+  width: 40%;
+  height: 350px;
+  background-color: azure;
+  color: black;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+}
+.popup .close {
+  font-size: 20px;
+  position: fixed;
+  right: 25px;
+  font-weight: bold;
+}/*# sourceMappingURL=style.css.map */
